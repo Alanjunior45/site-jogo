@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibia</title>
+    <!--<link rel="stylesheet" href="style.css">-->
+
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        div {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <h1>Tibia</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPj4ASayfDzwu7bwQ7b5-rvBpWCu-6ET86ogRzsYSCMABIQO80p4oLjxXe3groijjQS7I&usqp=CAU"
+            alt="Logo da Tibia" width="300" height="200">
+        <div>
+
+            <div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="personagens.html">Personagens</a></li>
+                    <li><a href="cadastroJogador.html">Cadastro jogador</a></li>
+                    <li><a href="">Listagem de jogadores</a></li>
+                </ul>
+            </div>
+            <h2>Formulário de Cadastro de jogador</h2>
+            <form action="https://api-aula.up.railway.app/jogadores" method="POST">
+                <input type="text" name="nome" placeholder="Nome" required>
+                <input type="text" name="idade" placeholder="Idade" required>
+                <button type="submit">Cadastrar</button>
+
+            </form>
+
+           </div>
+
+</body>
+
+</html>
